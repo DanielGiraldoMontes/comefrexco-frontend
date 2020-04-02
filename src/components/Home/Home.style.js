@@ -1,0 +1,41 @@
+export const HomeStyles = theme => ({
+    wrapperHome: {
+        position: 'relative',
+        padding: '10px 20px',
+    },
+    content: {
+        display: 'block',
+        width: '100%',
+        height: 'calc(100vh - 170px)',
+        overflow: 'auto',
+    },
+    moduleHeader: {
+        position: 'relative',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'flex-start',
+        alignItems: 'center',
+        borderBottom: '1px solid',
+        borderBottomColor: theme.palette.separator,
+        paddingBottom: 10,
+    },
+    moduleName: {
+        alignSelf: 'flex-start',
+        textAlign: 'left',
+        color: theme.palette.text.primary,
+        fontFamily: '"Open Sans", sans-serif',
+        fontSize: 22,
+        fontWeight: 600,
+        margin: '0 0 5px 0',
+        boxSizing: 'border-box',
+    },
+    moduleDescription: {
+        alignSelf: 'flex-start',
+        color: theme.palette.text.secondary,
+        fontFamily: '"Open Sans", sans-serif',
+        fontSize: 12,
+        fontWeight: 400,
+        margin: '0 0 5px 0',
+        boxSizing: 'border-box',
+    },
+});

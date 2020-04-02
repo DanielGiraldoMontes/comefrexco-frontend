@@ -1,0 +1,1 @@
+export const APIURL = "https://comefresco.azurewebsites.net/api/"
